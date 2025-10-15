@@ -12,7 +12,7 @@ function iniciarArcoIris() {
   intervalo = setInterval(() => {
     document.body.style.backgroundColor = coresDoArcoIris[index];
     index = (index + 1) % coresDoArcoIris.length;
-  }, 200);
+  }, 500);
   document.getElementById('status').textContent = 'Arco-íris ativado!';
 }
 
@@ -47,3 +47,4 @@ if (window.SpeechRecognition) {
 } else {
   document.getElementById('status').textContent = 'Reconhecimento de voz não suportado neste navegador.';
 }
+
