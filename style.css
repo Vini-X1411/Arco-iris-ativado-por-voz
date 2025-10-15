@@ -7,20 +7,19 @@ body {
 header {
   position: fixed;
   top: 0;
-  width: 100%
+  width: 100%;
   background: white;
   text-align: center;
-  padding: 25px o 15px;
+  padding: 25px 0 15px;
 }
 
-
-h1 {
-  font-size: 2em;
+header h1 {
+  font-size: 2.5em;
   font-weight: bold;
   margin: 0;
   display: inline-flex;
   align-items: center;
-  gap: 15px
+  gap: 15px;
   color: #333;
 }
 
@@ -34,11 +33,15 @@ h1 {
 .rainbow-icon {
   width: 50px;
   height: 50px;
+  border-radius: 50%;
 }
 
+main {
+  margin-top: 160px;
+  text-align: center;
+}
 
 #status {
   margin-top: 20px;
   color: #666;
-
 }
