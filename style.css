@@ -1,3 +1,5 @@
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+
 /* ======== Estilo geral ======== */
 body {
   margin: 0;
@@ -95,4 +97,5 @@ main {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
 
