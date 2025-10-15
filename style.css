@@ -1,25 +1,44 @@
 body {
   margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  font-family: sans-serif;
-  transition: background-color 0.2s ease;
-  background-color: white;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.5s ease;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%
+  background: white;
   text-align: center;
+  padding: 25px o 15px;
 }
 
 
 h1 {
   font-size: 2em;
+  font-weight: bold;
+  margin: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 15px
   color: #333;
+}
+
+.subtitulo {
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: #555;
+  margin-top: 8px;
+}
+
+.rainbow-icon {
+  width: 50px;
+  height: 50px;
 }
 
 
 #status {
   margin-top: 20px;
   color: #666;
+
 }
