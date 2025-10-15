@@ -56,9 +56,32 @@ main {
 }
 
 .comando {
+ font-family: 'Luckiest Guy', cursive;
   font-size: 2em;
   margin-bottom: 10px;
-  color: #222;
+
+  /* Gradiente de cores animado */
+  background: linear-gradient(
+    90deg,
+    #ff0000,
+    #ff9900,
+    #ffff00,
+    #33cc33,
+    #0099ff,
+    #6633ff,
+    #ff00ff,
+    #ff0000
+  );
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: colorShift 10s ease infinite;
+}
+
+@keyframes colorShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
 #status {
@@ -72,3 +95,4 @@ main {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
